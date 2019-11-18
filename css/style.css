@@ -1,0 +1,161 @@
+
+
+
+
+
+body{
+    background-color: mediumpurple;
+}
+
+.base{
+    background-color: cadetblue;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
+}
+
+.weatherheader{
+/*    background-color: skyblue;*/
+    padding: 35px;
+    font-size: 90px;
+    line-height: 100px
+}
+
+
+
+.zipcode{
+    background-color: darkseagreen;
+    float: right;
+    padding: 20px;
+    font-size: 35px;
+    line-height: normal;
+    
+}
+
+.location{
+    background-color: #d198e6;
+    font-size: 150px;
+    overflow: hidden;
+/*    float: left;*/
+    
+}
+
+.numbers{
+    background-color: palevioletred;
+    font-size: 170px;
+    overflow: hidden;
+/*    float: left;*/
+    
+}
+
+.weatherdisplay{
+    float: left;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.display{
+    background-color: orangered;
+    float: right;
+    font-size: 60px;
+    overflow: hidden;
+    
+}
+
+.img{
+    background-color: darkcyan;
+    height: 350px;
+    width: 455px;
+    font-size: 25px;
+    text-align: center;
+    float: right;
+    padding: 0px;
+    margin-right: 3%;
+    
+}
+.desc{
+    background-color: darkmagenta;
+    float: right;
+    margin-right: 3%;
+    padding: 0px;
+    font-size: 90px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {   
+
+    .weatherheader{
+        background-color: chocolate;
+    }
+
+}
+
+@media screen and (max-width: 768px) {   
+
+    .weatherheader{
+        background-color: crimson;
+    }
+    .base{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+}
+
+@media screen and (max-width: 596px) {   
+
+    .weatherheader{
+        background-color: greenyellow;
+    }
+    .location{
+        font-size: 110px;
+        text-align: center;
+        padding: 0px;
+    }
+    .numbers{
+        font-size: 145px;
+        text-align: center;
+        padding: 0px;
+        float: left;
+        margin: 0px;
+    }
+    .img{
+        padding: 0px;
+        height: 300px;
+        width: 300px;
+        float: right;
+    }
+    .desc{
+        background-color: greenyellow;
+        float: right;
+        text-align: center;
+        font-size: 150px;
+        padding: 0px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
